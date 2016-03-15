@@ -1,0 +1,55 @@
+@import url(default.css);
+@import url(style.css);
+@import url(jquery.bxslider.css);
+@import url(select.css);
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('../fonts/Roboto-Black-webfont.eot');
+    src: url('../fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Black-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Black-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Black-webfont.svg#RobotoBlack') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('../fonts/Roboto-Thin-webfont.eot');
+    src: url('../fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Thin-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}

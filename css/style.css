@@ -1,0 +1,250 @@
+.wrapper {
+    margin: 0 auto;
+    width: 1349px;
+}
+/*Header*/
+header, footer {
+    background-color: #2c3e50;
+    float: left;
+    height: 44px;
+    width: 100%;
+}
+.header__logo {
+    background-color: #ffffff;
+    float: left;
+    height: 100%;
+    margin-left: 204px;
+    width: 140px;
+}
+.header__logo h1 {
+    color: #27ae60;
+    font-family: "Roboto Black";
+    font-size: 25px;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header__nav {
+    float: left;
+    padding: 10px 0 0 232px;
+}
+.header__nav>li {
+    display: inline-block;
+}
+.header__nav a {
+    font-family: 'Roboto Regular';
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 32px;
+}
+.header__btn {
+    -o-background: linear-gradient(to top, #239d57, #27ae60);
+    -ms-background: linear-gradient(to top, #239d57, #27ae60);
+    -moz-background: linear-gradient(to top, #239d57, #27ae60);
+    -webkit-background: linear-gradient(to top, #239d57, #27ae60);
+    background: linear-gradient(to top, #239d57, #27ae60);
+    border: none;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: 'Roboto Medium';
+    font-size: 15px;
+    float: right;
+    height: 34px;
+    margin: 5px 205px 0 0;
+    outline: none;
+    text-transform: uppercase;
+    width: 90px;
+}
+.header__btn:hover {
+    -o-background: linear-gradient(to top, #31b367, #36c773);
+    -ms-background: linear-gradient(to top, #31b367, #36c773);
+    -moz-background: linear-gradient(to top, #31b367, #36c773);
+    -webkit-background: linear-gradient(to top, #31b367, #36c773);
+    background: linear-gradient(to top, #31b367, #36c773);
+    cursor: pointer;
+}
+/*Slider*/
+.slider {
+    float: left;
+    height: 421px;
+    width: 100%;
+}
+.bxslider__first {
+    background-image: url("../img/slider.png");
+    height: 421px;
+    width: 100%;
+}
+.bxslider__txt {
+    color: #555555;
+    font-family: 'Roboto Thin';
+    font-size: 55px;
+    text-align: center;
+    padding: 90px 0 0 325px;
+}
+.bxslider__btn {
+    -o-background: linear-gradient(to top, #239d57, #27ae60);
+    -ms-background: linear-gradient(to top, #239d57, #27ae60);
+    -moz-background: linear-gradient(to top, #239d57, #27ae60);
+    -webkit-background: linear-gradient(to top, #239d57, #27ae60);
+    background: linear-gradient(to top, #239d57, #27ae60);
+    border: none;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+    float: right;
+    height: 40px;
+    margin: 38px 475px 0 0;
+    outline: none;
+    text-transform: uppercase;
+    width: 80px;
+}
+.bxslider__btn:hover {
+    -o-background: linear-gradient(to top, #31b367, #36c773);
+    -ms-background: linear-gradient(to top, #31b367, #36c773);
+    -moz-background: linear-gradient(to top, #31b367, #36c773);
+    -webkit-background: linear-gradient(to top, #31b367, #36c773);
+    background: linear-gradient(to top, #31b367, #36c773);
+    cursor: pointer;
+}
+/*Cookie*/
+.cookie {
+    float: left;
+    height: 672px;
+    width: 100%;
+}
+.cookie article {
+    float: left;
+    height: 520px;
+    margin: 63px 0 0 204px;
+    width: 460px;
+}
+.cookie__txt-head {
+    color: #2c3e50;
+    font-family: 'Roboto Light';
+    font-size: 35px;
+}
+.cookie__txt {
+    color: #444444;
+    font-family: 'Roboto Light';
+    font-size: 15px;
+    line-height: 1.65;
+    padding-top: 20px;
+}
+.cookie__img {
+    float: left;
+    margin: 63px 0 0 100px;
+}
+.cookie__img-txt {
+    color: #2c3e50;
+    float: left;
+    font-family: 'Roboto Light';
+    font-size: 11px;
+    margin: 44px 0 0 -380px;
+}
+/*Form*/
+.form-block {
+    float: left;
+    background-image: url("../img/form-background.png");
+    height: 520px;
+    width: 100%;
+}
+form {
+    background-color: #ffffff;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    height: 355px;
+    margin: 79px 0 0 444px;
+    width: 460px;
+}
+.form-block__txt {
+    color: #555555;
+    font-family: 'Roboto Thin';
+    font-size: 35px;
+    padding-top: 18px;
+    text-align: center;
+}
+input[type='email'] {
+    background-color: #f5f5f5;
+    border: none;
+    border-top: 1px solid #c4c4c4;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #555555;
+    font-family: 'Roboto Light';
+    font-size: 20px;
+    margin: 23px 0 0 80px;
+    outline: none;
+    padding: 12px 0  12px 15px;
+    width: 282px;
+}
+input[type='password'] {
+    background-color: #f5f5f5;
+    border: none;
+    border-top: 1px solid #c4c4c4;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #555555;
+    font-family: 'Roboto Light';
+    font-size: 20px;
+    margin: 10px 0 0 80px;
+    outline: none;
+    padding: 12px 0  12px 15px;
+    width: 282px;
+}
+input[type='submit'] {
+    -o-background: linear-gradient(to top, #239d57, #27ae60);
+    -ms-background: linear-gradient(to top, #239d57, #27ae60);
+    -moz-background: linear-gradient(to top, #239d57, #27ae60);
+    -webkit-background: linear-gradient(to top, #239d57, #27ae60);
+    background: linear-gradient(to top, #239d57, #27ae60);
+    border: none;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: 'Roboto Regular';
+    font-size: 20px;
+    float: left;
+    height: 50px;
+    margin: 20px 0 0 170px;
+    outline: none;
+    text-transform: uppercase;
+    width: 120px;
+}
+input[type='submit']:hover {
+    -o-background: linear-gradient(to top, #31b367, #36c773);
+    -ms-background: linear-gradient(to top, #31b367, #36c773);
+    -moz-background: linear-gradient(to top, #31b367, #36c773);
+    -webkit-background: linear-gradient(to top, #31b367, #36c773);
+    background: linear-gradient(to top, #31b367, #36c773);
+    cursor: pointer;
+}
+/*Footer*/
+.footer__txt {
+    color: #ffffff;
+    font-family: 'Roboto Light';
+    font-size: 15px;
+    padding-top: 13px;
+    text-align: center;
+}
